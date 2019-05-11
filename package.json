@@ -1,0 +1,27 @@
+{
+  "name": "nikabot-service",
+  "version": "1.0.0",
+  "description": "Esse serviço consultará no Nikabot e retornará dados pra alimentar uma planilha de orçamento de projetos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "npm install request"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaanda/nikabot-service.git"
+  },
+  "keywords": [
+    "nikabot"
+  ],
+  "author": "Kaanda Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaanda/nikabot-service/issues"
+  },
+  "homepage": "https://github.com/kaanda/nikabot-service#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
